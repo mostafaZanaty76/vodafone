@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f4f4f4 ;
+
+}
+
+    
+
+.title{
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+.iconss{
+    margin-left: 9px;
+    font-size: 2rem;
+}
+.iconss i{
+    margin-left: 15px;
+    color: black;
+}
+
+
+.home{
+    background-color: white !important ;
+}
+.nav-list , .nav{
+    background: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 0 20px;
+    font-size: 26px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-list li:hover ,.iconss i:hover
+    
+
+{
+    background: #fff;
+    color: red;
+    border-radius: 5px;
+}
+
+.nav-list  a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list li a:hover{
+    color: inherit;
+}
+
+.nav-list li a:active{
+    color: inherit;
+}
+.Mostafa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.text-h4 h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+.text-h4 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: end;
+}
+.Home1{
+display: flex; 
+margin: 9px;
+width: 47%;
+border-radius: 9px;
+    background-color: #fff;
+    justify-content: center; 
+
+}
+.text-h4{
+    margin-right: 20px;
+}
+.Home1  img{
+    margin-right: 4px;
+    width: 47%;
+    border-radius: 9px;
+}
+.Home1 img:hover{
+    transform: scale(1.04);
+     transition: 0.5s;
+    /* overflow: hidden;  */
+}
+
+.text-h4 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-h1{
+    text-align: center; 
+    font-size: 40px; 
+    margin-top: 40px;
+  
+    
+}
+
+
+.home{
+    display: flex; 
+    
+ 
+}
+.text button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 500;
+    border: 1px solid red;
+    margin-left: 348px;
+    margin-top: 50px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text button:hover{
+    background: #fff;
+    color: red;
+    border: 1px solid red;
+}
+
+.text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 20px;
+   
+    line-height: 1.5;
+}
+
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+   margin: 20px;
+    line-height: 1.5;
+}
+.icon{
+    display: flex; 
+    justify-content: space-between; 
+    background-color: red; 
+    color: white; 
+    height: 100px; 
+    width: 100%;
+    text-align: center;
+}
+.icon div i{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+
+}
+/* ///////////////////////// */
+.radwa{
+    width: 80%;
+}
+.EG{
+    width: 100%;
+    margin-top: 20px;
+}
+.EG img{
+    width: 90%;
+    height: 230px;
+    /* border-radius: 6px; */
+    margin-left: 13%;
+    margin-right: 2%;
+}
+
+.imgegvod{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f4f4f4 !important;
+    margin-left: 10%;
+
+} 
+.card div{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.card div h2{
+    font-size: larger;
+}
+.card div p {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2px;
+}
+.card div a{
+    font-weight: 800;
+    text-decoration: none;
+    margin: 2px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #f4f4f4 !important;
+    margin-left: 5%;
+    margin-right: 11%;
+    margin-bottom: 30px;
+} 
+
+.imgegvod1 img {
+    width: 100%;
+    height: 474px;
+    border-radius: 6px;
+    margin: 30px;
+
+}
+.imgegvod2 .imgegvod2-1, .imgegvod2 .imgegvod2-2{
+    
+    display: flex;
+    margin: 30px;
+    height: 220px;
+    background: white;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 0 2px  #c5c4c4;
+    border-radius: 5px;
+ }
+ .imgegvod2 .imgegvod2-1 img, .imgegvod2 .imgegvod2-2 img{
+      width: 100%;
+    /* margin: 2px; */
+    border-radius: 5px;
+}
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.voda{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f4f4f4 !important;
+
+}   
+.voda1{
+    
+    padding: 10px;
+    margin:50px 70px 12px 13px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px  #c5c4c4;
+
+}
+.voda1 p{
+    font-weight: 700;
+    /*  font-size: 20px; */
+    color: #000;
+    margin: 20px;
+    line-height: 1.7;
+}
+.voda1 h2{
+    font-weight: 500;
+    color: #000;
+    margin: 20px;
+}
+
+.voda1 img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+ .voda2 .voda2-1 , .voda2 .voda2-2{
+    display: flex;
+    margin: 44px;
+    height: 220px;
+    background: white;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 0 2px  #c5c4c4;
+    border-radius: 5px;
+ }
+ .voda2 .voda2-1 p , .voda2 .voda2-2 p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: revert;
+   line-height: 1.5;
+}
+.text-div{
+    margin: 8px 19px;
+}
+ .voda2 .voda2-1 img , .voda2 .voda2-2 img{
+    width: 20%;
+    height: 154px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.vr-voda{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    background-color: #f4f4f4 !important;
+    margin-bottom: 30px;
+    
+}
+.vr-voda div{
+    border-radius: 12px;
+    box-shadow: 0 2px  #c5c4c4;
+    
+    margin: 7px;
+    padding: 7px; 
+    width: 70%;
+    background-color: #fff;
+}
+.but{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid red;
+
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.but:hover{
+    background: #fff;
+    color: red;
+    border: 1px solid red;
+}
+
+.R{
+    padding: 10px;
+    margin: 7px;
+    font-size: 35px;
+    font-weight: bold;
+}
+footer{
+   background-color: #333 !important;
+    color: #fff;   
+    /* height: 300px; */
+}
+.footer{
+  
+    width: 90%;
+    
+}
+.footer-icon{
+    display: flex;
+    justify-content: start;
+    border-bottom: #666 solid 1px;
+    margin-left: 15%;
+    font-size: 30px;
+    padding: 30px;
+}
+.footer-icon i{
+    margin: 20px;
+}
+.footer-text{
+    display: flex;
+    justify-content: start ;
+   
+    padding: 30px;
+    font-size: 20px;
+}
+.footer-text div{
+    width: 230px;
+}
+.footer-text2 {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+  @media  screen and  (max-width: 1180px)   {
+    .home{
+        display: block; 
+     
+    }
+    .home img{
+        width: 100%;
+    }
+    .text button{
+       margin: 5px;
+       
+    }
+ 
+    .voda {
+      display: block;
+    }
+
+    .voda1{
+        margin: 10px;
+
+    }
+    .voda2 ,.card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
+     .voda2 .voda2-1 img{
+        margin-top: 97px;
+     }
+     .voda2 .voda2-1 , .voda2 .voda2-2{
+        display: block;
+        height: auto;
+     }
+     .voda2 .voda2-1 img , .voda2 .voda2-2 img{
+        width: 90%;
+     }
+.vr-voda{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+
+}
+.vr-voda div{
+    /* display: block; */
+    width: 95%;
+}
+.but{
+    margin-right:0 ;
+}
+.footer{
+  
+    width: 100%;
+    
+}
+.footer-icon{
+    margin-left: 0;
+}
+.footer-text{
+   margin-top: 20px;
+    padding:0;
+    
+}
+.footer-icon i{
+    margin-left: 30px;
+}
+
+
+  }
+
+
+
+@media  screen and (max-width: 667PX) {
+    .home{
+        display: block; 
+     
+    }
+    .nav{
+   height: 100px;
+    }
+    .home img{
+        width: 100%;
+    }
+    .Mostafa{
+        display: block;
+    }
+    .Mostafa .Home1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text button{
+       margin: 5px;
+       
+    }
+    .voda , .imgegvod ,.radwa{
+      display: block;
+    
+    }
+    .w img{
+        width: 100%;
+    }
+    .voda1{
+        margin: 10px;
+
+    }
+    .voda2 {
+      display: block;
+     }
+     .voda2 .voda2-1 , .voda2 .voda2-2{
+        display: block;
+        height: auto;
+     }
+     .voda2 .voda2-1 img , .voda2 .voda2-2 img{
+        width: 90%;
+     }
+.vr-voda ,.card{
+    display:block;
+   
+
+}
+.vr-voda div{
+    /* display: block; */
+    width: 95%;
+}
+.but{
+    margin-right:0 ;
+}
+.footer{
+  
+    width: 100%;
+    
+}
+.footer-icon{
+    margin-left: 0;
+}
+.footer-text{
+   margin-top: 20px;
+    padding:0;
+    
+}
+.footer-icon i{
+    margin-left: 30px;
+}
+  }
